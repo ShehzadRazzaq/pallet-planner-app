@@ -1,4 +1,4 @@
-# Pallet Planner
+# Pallet Planner - Accurate 3D Visualised Logistics Pallet Calculator
 
 A pallet loading calculator I built to figure out how to stack mixed box sizes onto a standard pallet as efficiently as possible, while still being something warehouse staff can actually build by hand. Live at [plt.techtrove.ca](https://plt.techtrove.ca).
 
