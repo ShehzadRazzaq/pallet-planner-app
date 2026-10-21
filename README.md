@@ -2,6 +2,9 @@
 
 A pallet loading calculator I built to figure out how to stack mixed box sizes onto a standard pallet as efficiently as possible, while still being something warehouse staff can actually build by hand. Live at [plt.techtrove.ca](https://plt.techtrove.ca).
 
+<p align="center"><img src="media/demo.gif" alt="Rotating the 3D pallet view and switching between views and units" width="800"></p>
+<p align="center"><a href="media/demo.mp4">Watch the full-quality video</a></p>
+
 ## Why I built it
 
 Most online pallet calculators treat boxes as perfectly rigid shapes with zero clearance between them — which looks great on paper but doesn't work in real life, since cartons bulge slightly and warehouse staff need a pattern they can actually follow without a diagram in hand. I wanted a tool that accounts for real carton behaviour (bulge, crushing, uneven support) and gives a build order a person can follow, not just a number.
@@ -15,9 +18,19 @@ Most online pallet calculators treat boxes as perfectly rigid shapes with zero c
 - Calculates total weight, volume and freight class
 - Works entirely in the browser — no server, no account needed
 
-## Screenshot
+## Screenshots
 
+**3D view**
 ![Pallet Planner](planner.png)
+
+**Top view**
+![Top view](media/planner-top.png)
+
+**Metric units**
+![Metric units](media/planner-metric.png)
+
+**Solutions and layer-by-layer plan**
+![Layer plan](media/planner-layers.png)
 
 ## Tech used
 
